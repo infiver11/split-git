@@ -45,12 +45,18 @@ ollama pull gemma:2b
 
 ---
 
-## 📜 Example Output
 
-```text
-🔮 The ghost in the machine awakens...
 
-"Who dares to summon me with such atrocious, unformatted loops?! You think you can trap me in this repository?!"
+## 📜 Output Examples
 
-❌ COMMIT REJECTED: The spirit demands cleaner code!
-```
+### 🟢 Clean Commit (Allowed)
+The spirit approves of your elegant code and permits the commit:
+
+![Clean Commit Allowed](./images/allowed_commit.png)
+
+---
+
+### 🔴 Lazy Commit (Blocked)
+A chaotic diff triggers a dramatic persona shift, rejecting your commit:
+
+![Lazy Commit Blocked](./images/blocked_commit.png)
